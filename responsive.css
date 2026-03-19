@@ -1,0 +1,269 @@
+@media screen and (max-width:850px) {
+    .container {
+        margin: 0px 20px;
+    }
+
+    .box {
+        margin: 0px 20px;
+        gap: 40px;
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .s-container,
+    .a-container {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    /* Nav */
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+        gap: 10px;
+        position: relative;
+    }
+
+    .nav-list {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    /* Hero */
+    .herosection {
+        height: auto;
+        min-height: 100vh;
+        flex-direction: column-reverse;
+        padding: 40px 0;
+    }
+
+    .main-content {
+        margin-top: 40px;
+    }
+
+    .main-content img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .social ul {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social ul li {
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+
+    /* Services */
+    .services {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        gap: 30px;
+    }
+
+    .img img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    /* Skills */
+    .skill-section {
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 40px;
+        width: 90%;
+        padding: 60px 0;
+    }
+
+    .left-img {
+        width: 100%;
+        min-height: 350px;
+        position: relative;
+        display: block;
+    }
+
+    #d {
+        position: relative;
+        width: 80%;
+        max-width: 350px;
+        top: 60px;
+        left: 10%;
+        display: block;
+    }
+
+    #a {
+        position: absolute;
+        width: 25%;
+        max-width: 120px;
+        top: 0;
+        left: 5%;
+    }
+
+    #b {
+        position: absolute;
+        width: 22%;
+        max-width: 100px;
+        top: 30px;
+        right: 5%;
+    }
+
+    #c {
+        position: absolute;
+        width: 28%;
+        max-width: 140px;
+        bottom: 50px;
+        left: 15%;
+    }
+
+    /* Achievement */
+    .acv {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .acv img {
+        margin-right: 15px;
+        margin-bottom: auto;
+    }
+
+    .right-img {
+        position: relative;
+        width: 100%;
+        min-height: 400px;
+        display: block;
+        margin-top: 20px;
+    }
+
+    #aw3 {
+        position: relative;
+        width: 70%;
+        max-width: 350px;
+        top: 150px;
+        left: 15%;
+        display: block;
+    }
+
+    #aw {
+        position: absolute;
+        width: 35%;
+        max-width: 150px;
+        top: 20px;
+        left: 0;
+    }
+
+    #aw1 {
+        position: absolute;
+        width: 35%;
+        max-width: 150px;
+        right: 0;
+        top: 80px;
+    }
+
+    #aw2 {
+        position: absolute;
+        width: 35%;
+        max-width: 150px;
+        bottom: 20px;
+        left: 0;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        flex-direction: column-reverse;
+        margin: 50px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .leftimg img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .man {
+        justify-content: center;
+    }
+
+    .righttext>p:first-of-type {
+        text-align: left;
+    }
+
+    /* Clients */
+    .partner-img {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .achive {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .partner-img img {
+        height: auto;
+    }
+
+    .clients .acv {
+        flex-direction: column;
+
+    }
+
+    .clients .acv h1 {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    /* Contact */
+    .contact-info {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .contact-section {
+        width: 90%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    /* Works / Portfolio */
+    .works {
+        flex-direction: column;
+    }
+
+    .works img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
