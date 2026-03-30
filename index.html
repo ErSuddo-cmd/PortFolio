@@ -11,6 +11,13 @@
 </head>
 
 <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <span class="loader-text">Loading...</span>
+        </div>
+    </div>
     <nav>
         <div class="nav-logo">
             <h1><a href="#">I, Bimal</a></h1>
@@ -271,6 +278,15 @@
     <footer>
         <p> &copy; 2026 bimalmalla2060. All rights reserved</p>
     </footer>
+
+    <script>
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            setTimeout(() => {
+                preloader.classList.add('hidden');
+            }, 1500); // 1.5 seconds delay to show the effect
+        });
+    </script>
 </body>
 
 </html>
